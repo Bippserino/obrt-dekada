@@ -394,6 +394,11 @@ img {
     .footer {
         font-size: 0.5rem;
     }
+
+    .questions {
+        width: 80vw;
+    }
+
 }
 
 
@@ -471,6 +476,10 @@ img {
 
     .carousel-description {
         width: 80vw;
+    }
+
+    .accordion button, .accordion-body {
+        font-size: 0.8rem;
     }
 }
 

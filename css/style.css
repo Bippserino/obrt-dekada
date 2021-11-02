@@ -452,12 +452,24 @@ img {
     }
 }
 
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 362px) {
+    .header {
+        height: 25rem;
+    }
+
     .header img {
         max-width: 150px;
     }
 
     .btn-group-lg>.btn, .btn-lg {
-        font-size: 0.3rem;
+        font-size: 0.4rem;
+    }
+
+    .title {
+        bottom: 7%;
+    }
+
+    .title h1 {
+        font-size: 1.5rem;
     }
 }

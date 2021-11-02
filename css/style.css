@@ -418,6 +418,7 @@ img {
     .feature-title {
         font-size: 0.4rem;
         padding: 0.25rem;
+        letter-spacing: 0;
     }
 
     .feature-description {

@@ -421,6 +421,10 @@ img {
         letter-spacing: 0;
     }
 
+    .title-text {
+        line-height: unset;
+    }
+
     .feature-description {
         font-size: 0.35rem;
     }

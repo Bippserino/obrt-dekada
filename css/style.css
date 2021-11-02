@@ -48,6 +48,11 @@ img {
     -o-user-select: none;
 }
 
+a {
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+
 .navbar {
     background-color: var(--dark-blue);
 }
@@ -267,6 +272,8 @@ img {
 .accordion-body {
     color: var(--gray);
 }
+
+
 
 @media only screen and (min-width: 1441px) and (max-width: 2561px) {
     .main{

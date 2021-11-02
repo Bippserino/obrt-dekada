@@ -404,6 +404,7 @@ img {
 
     .header {
         padding: 0;
+        height: 30rem;
     }
 
     .header img {
@@ -423,6 +424,10 @@ img {
 
     .title-text {
         line-height: unset;
+    }
+
+    .title {
+        bottom: 10%;
     }
 
     .feature-description {
@@ -455,15 +460,24 @@ img {
     .w-50 {
         width: 90%!important;
     }
+
+    .store-text {
+        margin-bottom: 1.5rem;
+    }
+
+    .carousel-description {
+        width: 80vw;
+    }
 }
 
 @media only screen and (max-width: 362px) {
     .header {
-        height: 25rem;
+        height: 23rem;
     }
 
     .header img {
         max-width: 150px;
+        top: 7%;
     }
 
     .btn-group-lg>.btn, .btn-lg {
@@ -471,7 +485,7 @@ img {
     }
 
     .title {
-        bottom: 7%;
+        bottom: 10%;
     }
 
     .title h1 {

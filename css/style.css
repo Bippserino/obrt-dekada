@@ -217,7 +217,10 @@ a {
 
 .footer-right, .footer-left {
     padding-top: 2rem;
+    text-align: center;
 }
+
+
 
 .footer-links, .footer-information {
     margin-top: 2rem;
@@ -287,10 +290,14 @@ a {
 }
 
 @media only screen and (min-width: 2000px) {
+    .title {
+        margin-left: 12vw;
+    }
+
     .header img {
         top: 4rem;
         width: 30vw;
-        margin-left: 15vw;
+        margin-left: -1vw;
         max-width: 700px;
     }
 }
@@ -409,7 +416,6 @@ a {
 
 }
 
-
 @media only screen and (max-width: 426px) {
     .carousel-description, .title-text {
         font-size: 0.5rem;
@@ -460,10 +466,6 @@ a {
     }
     iframe {
         height: 15rem;
-    }
-
-    .footer {
-        text-align: center;
     }
 
     .carousel-control-next {

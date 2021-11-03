@@ -513,4 +513,8 @@ a {
     .title h1 {
         font-size: 1.5rem;
     }
+
+    .copyright {
+        font-size: 0.4rem;
+    }
 }

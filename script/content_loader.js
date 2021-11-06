@@ -38,7 +38,7 @@ function insert_into_inflatable_content(inflatableXML) {
 
 $( document ).ready(() => {
     var xhttp = new XMLHttpRequest();
-    xhttp.open('GET', '../../tobogani.xml');
+    xhttp.open('GET', '../tobogani.xml');
     xhttp.onreadystatechange = () => {
         var response = xhttp.responseText
         parser = new DOMParser()

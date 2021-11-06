@@ -2,6 +2,7 @@
 <katalog>
     <tobogan>
         <id>1</id>
+        <put>./veliki-spuzva-bob</put>
         <naziv>Veliki Spužva Bob Tobogan</naziv>
         <kratki_opis>Veliki tobogan s likovima iz popularnog animiranog serijala Spužva Bob Skockani.</kratki_opis>
         <karakteristike>
@@ -26,6 +27,7 @@
     
     <tobogan>
         <id>2</id>
+        <put>./svemirko</put>
         <naziv>Tobogan Svemirko</naziv>
         <kratki_opis>Istražite svemirska prostranstva</kratki_opis>
         <karakteristike>
@@ -48,6 +50,7 @@
 
     <tobogan>
         <id>3</id>
+        <put>./mickey-mouse-tobogan</put>
         <naziv>Tobogan s bazenom - Mickey Mouse</naziv>
         <kratki_opis>Miki s bazenom</kratki_opis>
         <karakteristike>
@@ -71,6 +74,7 @@
 
     <tobogan>
         <id>4</id>
+        <put>./toy-story-tobogan</put>
         <naziv>Tobogan s bazenom - Priča o igračkama</naziv>
         <kratki_opis>Priča o igračkama s bazenom</kratki_opis>
         <karakteristike>
@@ -92,6 +96,7 @@
 
     <tobogan>
         <id>5</id>
+        <put>./veliki-zmaj</put>
         <naziv>Veliki Zmaj Igraonica</naziv>
         <kratki_opis>Za one koji su Zmaja prerasli</kratki_opis>
         <karakteristike>
@@ -118,6 +123,7 @@
 
     <tobogan>
         <id>6</id>
+        <put>./spuzva-bob</put>
         <naziv>Tobogan Spužva Bob</naziv>
         <kratki_opis>Tobogan s likovima iz popularnog animiranog serijala Spužva Bob Skockani.</kratki_opis>
         <karakteristike>
@@ -145,6 +151,7 @@
 
     <tobogan>
         <id>7</id>
+        <put>./malci</put>
         <naziv>Tobogan Malci</naziv>
         <kratki_opis>Tobogan s likovima iz super popularnog animiranog serijala</kratki_opis>
         <karakteristike>
@@ -173,6 +180,7 @@
 
     <tobogan>
         <id>8</id>
+        <put>./princeza</put>
         <naziv>Tobogan Princezin dvorac</naziv>
         <kratki_opis>Tobogan idealan za djevojčice</kratki_opis>
         <karakteristike>
@@ -197,6 +205,7 @@
 
     <tobogan>
         <id>9</id>
+        <put>./zmaj</put>
         <naziv>Igraonica Zmaj</naziv>
         <kratki_opis>Igraonica u obliku dvorca</kratki_opis>
         <karakteristike>
@@ -220,6 +229,7 @@
 
     <tobogan>
         <id>10</id>
+        <put>./gusar</put>
         <naziv>Tobogan/Igraonica Gusarski Brod</naziv>
         <kratki_opis>Tobogan/igraonica u obliku piratskog broda</kratki_opis>
         <karakteristike>
@@ -244,6 +254,7 @@
 
     <tobogan>
         <id>11</id>
+        <put>./carobnjak</put>
         <naziv>Igraonica Čarobnjak</naziv>
         <kratki_opis>Skakaonica na napuhavanje za najmlađe</kratki_opis>
         <karakteristike>
@@ -264,6 +275,7 @@
 
      <tobogan>
          <id>12</id>
+         <put>./veliki</put>
         <naziv>Veliki Tobogan</naziv>
         <kratki_opis>Samo za najhrabrije</kratki_opis>
         <karakteristike>

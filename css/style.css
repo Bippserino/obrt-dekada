@@ -313,6 +313,60 @@ a {
     margin-top: 2rem;
 }
 
+.catalog {
+    margin: auto;
+    width: 80vw;
+}
+
+.catalog h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.catalog-contact-us {
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.catalog-description h1 {
+    font-size: 2rem;
+}
+
+.catalog-item {
+    display: flex;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.catalog-item:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+    transition: 0.4s;
+}
+
+.catalog-description {
+    padding-left: 3rem;
+}
+
+.catalog-short-description {
+    margin-bottom: 1rem;
+}
+
+.catalog-item-btn a {
+    padding: 0.5rem 1.5rem;
+}
+
+.catalog-img {
+    width: 50%;
+}
+
+.catalog-img img {
+    width: 100%;
+}
+
+
 @media only screen and (min-width: 1441px) and (max-width: 2561px) {
     .main{
         padding-top: 6rem;

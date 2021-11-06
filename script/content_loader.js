@@ -53,7 +53,6 @@ $( document ).ready(() => {
             }
         })
         var inflatableParsed = parseXML(inflatableXML[0])
-        // $(".inflatable-content").html(inflatableParsed.id)
 
         $(window).resize(() => {
             $(".inflatable-content").css('padding',`calc((100vh - ${$(".navbar").height()}px - ${$(".footer").height()}px - ${$(".inflatable-content").height()}px)/4) 0`)

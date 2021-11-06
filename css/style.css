@@ -6,8 +6,6 @@
     --dirty-white: #ebf2fa;
     --lighter-blue: #427aa1;
   }
-  
-
 
 * {
     box-sizing: border-box;
@@ -38,6 +36,10 @@ h2 {
     letter-spacing: 0.1rem;
     font-family: 'Titillium Web', sans-serif;
     font-size: 1.5rem;
+}
+
+h3 {
+    letter-spacing: 0.05rem;
 }
 
 img {
@@ -150,15 +152,9 @@ a {
     margin: auto;
   }
 
-.carousel-control-next {
-      right: 15vw;
-  }
 
-.carousel-control-prev {
-    left: 15vw;
-}
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon, .carousel-control-prev-icon, .carousel-control-next-icon-main, .carousel-control-prev-icon-main {
     filter: invert(24%) sepia(86%) saturate(1449%) hue-rotate(172deg) brightness(93%) contrast(95%);
 }
 
@@ -167,6 +163,7 @@ a {
     text-align: center;
     width: 65vw;
     margin: 3rem auto;
+    line-height: 1.75rem;
 }
 
 .features {
@@ -275,9 +272,46 @@ a {
     color: var(--gray);
 }
 
+.inflatable-content {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.inflatable-content h3 {
+    margin-top: 2rem;
+    color: var(--dark-blue);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.inflatable-title {
+    font-size: 3.5rem;
+}
 
 
+.inflatable-dimensions {
+    margin-bottom: 2rem;
+}
 
+.inflatable-info {
+    margin-bottom: 3rem;
+}
+
+.w-50 {
+    width: 65%!important;
+    height: auto;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.inflatable-buy {
+    margin-top: 2rem;
+}
 
 @media only screen and (min-width: 1441px) and (max-width: 2561px) {
     .main{
@@ -299,6 +333,15 @@ a {
         width: 30vw;
         margin-left: -1vw;
         max-width: 700px;
+    }
+
+    .inflatable-dimensions, .inflatable-description, .inflatable-info {
+        font-size: 1.75rem;
+    }
+
+    .inflatable-content h3 {
+        margin-top: 2rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -472,12 +515,20 @@ a {
         right: -7vw;
     }
   
-    .carousel-control-prev {
+    .carousel-control-prev{
         left: -7vw;
     }
 
+    .carousel-control-next.reset-right {
+        right: 0;
+    }
+
+    .carousel-control-prev.reset-left {
+        left: 0;
+    }
+
     .w-50 {
-        width: 90%!important;
+        width: 80vw!important;
     }
 
     .store-text {
@@ -490,6 +541,10 @@ a {
 
     .accordion button, .accordion-body {
         font-size: 0.8rem;
+    }
+
+    .inflatable-title {
+        font-size: 2.5rem;
     }
 }
 

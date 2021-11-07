@@ -55,7 +55,7 @@ $( document ).ready(() => {
         var inflatableParsed = parseXML(inflatableXML[0])
 
         $(window).resize(() => {
-            $(".inflatable-content").css('padding',`calc((100vh - ${$(".navbar").height()}px - ${$(".footer").height()}px - ${$(".inflatable-content").height()}px)/4) 0`)
+            $(".inflatable-content").css('padding',`calc((100vh - ${$(".navbar").height()}px - ${$(".footer").height()}px - ${$(".inflatable-content").height()}px)/4) 2rem`)
         })
 
         insert_into_inflatable_content(inflatableParsed)

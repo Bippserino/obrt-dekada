@@ -505,6 +505,7 @@ hr:last-child {
 
     .carousel-description {
         font-size: 0.75rem;
+        line-height: 0.75rem;
     }
 
     .features {
@@ -552,6 +553,16 @@ hr:last-child {
     }
 }
 
+@media only screen and (max-width: 992px) {
+    .navbar-nav {
+        align-items: center;
+    }
+
+    .nav-item {
+        margin-right: 0!important;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .catalog-item {
         flex-direction: column;
@@ -568,6 +579,7 @@ hr:last-child {
 
     .catalog-item-btn a {
         width: 100%;
+        border-radius: unset;
     }
 
     .catalog-description-container h1 {
@@ -582,7 +594,7 @@ hr:last-child {
 
     .catalog-contact-us {
         padding: 0 1rem;
-        margin-bottom: 0;
+        margin-bottom: 1rem;
     }
     
     .catalog-short-description, .catalog-description-container h1 {

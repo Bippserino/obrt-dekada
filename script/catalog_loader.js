@@ -29,22 +29,7 @@ function create_catalog_item_html(XMLParsed) {
         characteristicsHTML += `<li>${XMLParsed.karakteristike[i]}</li>`
     }
 
-    return `<div class="catalog-item">
-    <div class="catalog-img">
-        <a href="${XMLParsed.put}"><img src="${XMLParsed.thumbnail}" alt="${XMLParsed.naziv}"></a>
-    </div>
-    <div class="catalog-description">
-        <h1>${XMLParsed.naziv}</h1>
-        <div class="catalog-short-description">${XMLParsed.kratki_opis}</div>
-        <ul>
-            ${characteristicsHTML}
-        </ul>
-        <div class="catalog-item-btn">
-            <a href="${XMLParsed.put}" class="btn btn-primary">Više detalja</a>
-        </div>
-        
-    </div>
-</div>`
+    return `<div class="catalog-item"><div class="catalog-img"><a href="${XMLParsed.put}"><img src="${XMLParsed.thumbnail}" alt="${XMLParsed.naziv}"></a></div><div class="catalog-description"><div class="catalog-description-container"><h1>${XMLParsed.naziv}</h1><div class="catalog-short-description">${XMLParsed.kratki_opis} <div class="catalog-characteristics"><ul>${characteristicsHTML}</ul></div></div><div class="catalog-item-btn"><a href="${XMLParsed.put}" class="btn btn-primary">Više detalja</a></div></div></div></div> <hr>`
 }
 
 function insert_into_catalog_content(catalogHTML) {

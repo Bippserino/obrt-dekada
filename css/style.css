@@ -319,13 +319,12 @@ a {
 }
 
 .catalog h1 {
-    margin-top: 2rem;
     font-size: 3rem;
 }
 
 .catalog-contact-us {
     color: red;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .catalog-description h1 {
@@ -337,17 +336,20 @@ a {
     padding: 2rem;
     border-radius: 2rem;
     margin-bottom: 2rem;
+    align-items: center;
 }
 
 .catalog-item:hover {
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
-    transition: 0.4s;
+    transition: box-shadow 0.4s;
 }
 
 .catalog-description {
     padding-left: 3rem;
+    width: 50%;
+    height: 100%;
 }
 
 .catalog-short-description {
@@ -366,6 +368,13 @@ a {
     width: 100%;
 }
 
+.catalog>h1 {
+    padding-top: 2rem;
+}
+
+hr:last-child {
+    display: none;
+}
 
 @media only screen and (min-width: 1441px) and (max-width: 2561px) {
     .main{
@@ -396,6 +405,25 @@ a {
     .inflatable-content h3 {
         margin-top: 2rem;
         font-size: 2.5rem;
+    }
+
+    .catalog h1 {
+        font-size: 4rem;
+    }
+
+    .catalog-description h1 {
+        font-size: 3rem;
+    }
+    
+    .catalog-contact-us, .catalog-short-description, .catalog-description ul, .catalog-item-btn a {
+        font-size: 1.5rem;
+
+    }
+}
+
+@media only screen and (max-width: 1545px) {
+    .catalog-contact-us, .catalog>h1  {
+        text-align: center;
     }
 }
 
@@ -509,6 +537,60 @@ a {
 
     .questions {
         width: 80vw;
+    }
+
+    .catalog {
+        margin: unset;
+    }
+
+    .catalog-item, .catalog{
+        width: 100vw;
+    }
+
+    .catalog-item {
+        border-radius: unset;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .catalog-item {
+        flex-direction: column;
+        padding: 2rem 0;
+        margin-bottom: 0;
+    }
+    .catalog-img, .catalog-description {
+        width: 100%;
+    }
+
+    .catalog-description {
+        padding-left: 0;
+    }
+
+    .catalog-item-btn a {
+        width: 100%;
+    }
+
+    .catalog-description-container h1 {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 1.25rem;
+    }
+
+    .catalog-characteristics {
+        padding-left: 1rem;
+    }
+
+    .catalog-contact-us {
+        padding: 0 1rem;
+        margin-bottom: 0;
+    }
+    
+    .catalog-short-description, .catalog-description-container h1 {
+        padding: 0 2rem;
+    }
+
+    .catalog>h1 {
+        font-size: 2rem;
     }
 
 }

@@ -275,6 +275,7 @@ a {
 .inflatable-content {
     text-align: center;
     margin-top: 3rem;
+    padding: 0 2rem;
 }
 
 .inflatable-content h3 {

@@ -389,7 +389,7 @@ hr:last-child {
     display: grid;
     margin: 6rem 0 2rem 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 1rem;
+    column-gap: 2rem;
     row-gap: 2rem;
 }
 
@@ -426,7 +426,6 @@ hr:last-child {
 }
 
 .rental-card li {
-    margin-left: 2rem;
     text-align: left;
 }
 
@@ -660,6 +659,10 @@ hr:last-child {
     .rental p, .rental h1 {
         text-align: center;
     }
+
+    .rental-card li {
+        margin-left: 2rem;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -866,6 +869,16 @@ hr:last-child {
     .rental-cards {
         font-size: 0.75rem;
     }
+
+    .rental-card li {
+         margin-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .rental-card li {
+        margin-left: 2rem;
+    }
 }
 
 @media only screen and (max-width: 362px) {
@@ -896,5 +909,11 @@ hr:last-child {
 
     .footer-icons img {
         width: 20%;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .rental-card li {
+        margin-left: 1rem;
     }
 }

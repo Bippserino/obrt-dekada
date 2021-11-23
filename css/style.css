@@ -465,17 +465,8 @@ hr:last-child {
         margin-top: 4rem;
     }
 
-    .title-text {
-        font-size: var(--font-medium);
-        line-height: 2.75rem;
-    }
-
     .title-buttons {
         margin-top: 2rem;
-    }
-
-    .carousel-description, .feature-description, .store-text {
-        font-size: var(--font-small);
     }
 }
 
@@ -508,7 +499,7 @@ hr:last-child {
         font-size: var(--font-big);
     }
     
-    .catalog-contact-us, .catalog-short-description, .catalog-description ul, .catalog-item-btn a {
+    .catalog-contact-us, .catalog-short-description, .catalog-description ul, .catalog-item-btn a, .carousel-description, .feature-description, .store-text {
         font-size: var(--font-small);
 
     }
@@ -519,6 +510,15 @@ hr:last-child {
 
     .header {
         height: 38rem;
+    }
+
+    .title-text {
+        font-size: var(--font-small);
+        line-height: 2.75rem;
+    }
+
+    .feature img {
+        max-height: 8rem;
     }
     
 }

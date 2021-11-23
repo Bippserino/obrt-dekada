@@ -5,6 +5,11 @@
     --dark-blue: #06668d;
     --dirty-white: #ebf2fa;
     --lighter-blue: #427aa1;
+    --font-extra-small: 0.75rem;
+    --font-small: 1.5rem;
+    --font-medium: 2rem;
+    --font-big: 3rem;
+    --font-extra-big: 5rem;
   }
 
 * {
@@ -36,7 +41,7 @@ h2 {
     color: var(--dirty-white);
     letter-spacing: 0.1rem;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 1.5rem;
+    font-size: var(--font-small);
 }
 
 h3 {
@@ -101,7 +106,7 @@ a {
 }
 
 .title h1 {
-    font-size: 5rem;
+    font-size: var(--font-extra-big);
 }
 
 .title-text {
@@ -145,7 +150,7 @@ a {
 }
 
 .main h1 {
-    font-size: 3rem;
+    font-size: var(--font-big);
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -181,7 +186,7 @@ a {
 }
 
 .feature-title {
-    font-size: 2rem;
+    font-size: var(--font-medium);
     font-family: 'Bebas Neue', cursive;
     padding: 1rem 0;
     letter-spacing: 0.1rem;
@@ -264,7 +269,7 @@ a {
 }
 
 .accordion-header button{
-    font-size: 1.5rem;
+    font-size: var(--font-small);
     color: var(--dark-blue);
 }
 
@@ -320,7 +325,7 @@ a {
 }
 
 .catalog h1 {
-    font-size: 3rem;
+    font-size: var(--font-big);
 }
 
 .catalog-contact-us {
@@ -329,7 +334,7 @@ a {
 }
 
 .catalog-description h1 {
-    font-size: 2rem;
+    font-size: var(--font-medium);
 }
 
 .catalog-item {
@@ -459,17 +464,30 @@ hr:last-child {
     .features {
         margin-top: 4rem;
     }
+
+    .title-text {
+        font-size: var(--font-medium);
+        line-height: 2.75rem;
+    }
+
+    .title-buttons {
+        margin-top: 2rem;
+    }
+
+    .carousel-description, .feature-description, .store-text {
+        font-size: var(--font-small);
+    }
 }
 
 @media only screen and (min-width: 2000px) {
     .title {
-        margin-left: 12vw;
+        margin-left: 8vw;
     }
 
     .header img {
         top: 4rem;
         width: 30vw;
-        margin-left: -1vw;
+        margin-left: 4rem;
         max-width: 700px;
     }
 
@@ -487,16 +505,20 @@ hr:last-child {
     }
 
     .catalog-description h1 {
-        font-size: 3rem;
+        font-size: var(--font-big);
     }
     
     .catalog-contact-us, .catalog-short-description, .catalog-description ul, .catalog-item-btn a {
-        font-size: 1.5rem;
+        font-size: var(--font-small);
 
     }
 
     .rental-card li {
         margin-left: 8rem;
+    }
+
+    .header {
+        height: 38rem;
     }
     
 }
@@ -518,7 +540,7 @@ hr:last-child {
     }
 
     .title h1 {
-        font-size: 3rem;
+        font-size: var(--font-big);
     }
 
     .main {
@@ -567,7 +589,7 @@ hr:last-child {
     }
 
     .title h1 {
-        font-size: 2rem;
+        font-size: var(--font-medium);
     }
 
     .btn-group-lg>.btn, .btn-lg {
@@ -580,7 +602,7 @@ hr:last-child {
     }
 
     .main h1 {
-        font-size: 2rem;
+        font-size: var(--font-medium);
     }
 
     .carousel-description {
@@ -597,11 +619,11 @@ hr:last-child {
     }
 
     .feature-title {
-        font-size: 1rem;
+        font-size: var(--font-small);
     }
 
     .feature-description {
-        font-size: 0.5rem;
+        font-size: var(--font-extra-small);
         margin: auto;
     }
 
@@ -662,6 +684,32 @@ hr:last-child {
 
     .rental-card li {
         margin-left: 2rem;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        row-gap: 3rem;
+    }
+
+    .quality {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .delivery {
+        grid-row: 1;
+        grid-column: 4;
+    }
+
+    .variety {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .cheap {
+        grid-row: 2;
+        grid-column: 4;
     }
 }
 
@@ -735,7 +783,7 @@ hr:last-child {
     }
 
     .catalog>h1 {
-        font-size: 2rem;
+        font-size: var(--font-medium);
     }
 
     .rental-cards {
@@ -779,13 +827,9 @@ hr:last-child {
 }
 
 @media only screen and (max-width: 426px) {
-    .carousel-description, .title-text {
-        font-size: 0.5rem;
-    }
-
     .header {
         padding: 0;
-        height: 30rem;
+        height: 33rem;
     }
 
     .header img {
@@ -793,14 +837,15 @@ hr:last-child {
         min-width: 200px;
     }
 
-    .features {
-        margin-top: 0;
-    }
-
     .feature-title {
-        font-size: 0.4rem;
+        font-size: var(--font-small);
         padding: 0.25rem;
         letter-spacing: 0;
+    }
+
+    .feature img {
+        width: 14vw;
+
     }
 
     .title-text {
@@ -812,15 +857,16 @@ hr:last-child {
     }
 
     .feature-description {
-        font-size: 0.35rem;
+        font-size: var(--font-extra-small );
+        width: unset;
     }
 
     .main {
-        padding: 2rem;
+        padding: 2rem 1rem;
     }
 
     .main h1 {
-        font-size: 1.5rem;
+        font-size: var(--font-small);
     }
 
     .yt-video {
@@ -856,6 +902,7 @@ hr:last-child {
 
     .carousel-description {
         width: 80vw;
+        line-height: unset;
     }
 
     .accordion button, .accordion-body {
@@ -873,17 +920,49 @@ hr:last-child {
     .rental-card li {
          margin-left: 4rem;
     }
+
+    .features {
+        display: grid;
+        grid-template-columns: 0.125fr 1fr 0.125fr;
+        row-gap: 2rem;
+        margin-top: 0;
+    }
+
+    .quality {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .delivery {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .variety {
+        grid-row: 3;
+        grid-column: 2;
+    }
+
+    .cheap {
+        grid-row: 4;
+        grid-column: 2;
+    }
+
 }
 
 @media only screen and (max-width: 376px) {
     .rental-card li {
         margin-left: 2rem;
     }
+
+    .carousel-description {
+        margin-top: 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 362px) {
     .header {
-        height: 23rem;
+        height: 27rem;
     }
 
     .header img {
@@ -900,7 +979,7 @@ hr:last-child {
     }
 
     .title h1 {
-        font-size: 1.5rem;
+        font-size: var(--font-small);
     }
 
     .copyright {

@@ -1081,7 +1081,7 @@ hr:last-child {
     }
 
     .copyright {
-        font-size: 0.5rem;
+        font-size: 0.75rem;
     }
 
     .contact-us {
@@ -1098,6 +1098,10 @@ hr:last-child {
 
     .disclaimer li {
         margin-left: 0;
+    }
+
+    .mail-form button{
+        width: 50%;
     }
 }
 
@@ -1122,7 +1126,7 @@ hr:last-child {
     }
 
     .btn-group-lg>.btn, .btn-lg {
-        font-size: 0.4rem;
+        font-size: 0.75rem;
     }
 
     .title {
@@ -1134,7 +1138,7 @@ hr:last-child {
     }
 
     .copyright {
-        font-size: 0.4rem;
+        font-size: 0.75rem;
     }
 
     .footer-icons img {

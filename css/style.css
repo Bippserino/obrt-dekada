@@ -477,6 +477,12 @@ hr:last-child {
     margin-bottom: 0;
 }
 
+.contact-us-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #inflatable-preview-img {
     width: 75%;
     margin-left: 50%;
@@ -793,6 +799,14 @@ hr:last-child {
         grid-row: 2;
         grid-column: 4;
     }
+
+    .contact-us {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-us-wrapper {
+        margin-bottom: 4rem;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -905,7 +919,16 @@ hr:last-child {
     .rental h2 {
         font-size: 1rem;
     }
+}
 
+@media only screen and (max-width: 769px) {
+    [name="email"], [name="inflatable"], [name="name"], [name="message"], #inflatable-preview-img {
+        width: 100%;
+    }
+
+    .contact-us {
+        padding: 4rem;
+    }
 }
 
 @media only screen and (max-width: 426px) {
@@ -1036,6 +1059,18 @@ hr:last-child {
 
     .copyright {
         font-size: 0.5rem;
+    }
+
+    .contact-us {
+        padding: 2rem;
+    }
+
+    .contact-us-info{
+        align-items: unset;
+    }
+
+    .contact-us-info>h1 {
+        font-size: var(--font-medium);
     }
 }
 

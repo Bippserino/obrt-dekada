@@ -35,6 +35,10 @@ function insert_into_inflatable_preview(inflatableXML) {
     $("#inflatable-preview").html(`<h1 class="inflatable-title">${inflatableXML.naziv}</h1><div class="inflatable-description">${inflatableXML.opis}</div><div class="inflatable-dimensions"><b>Dimenzije (D/Š/V):</b> ${inflatableXML.dimenzije}</div><div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner">${picturesHTML}</div><button class="carousel-control-prev reset-left" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next reset-right" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div><div class="inflatable-buy">Tobogan možete kupiti na našoj <a href="${inflatableXML.link_za_kupovinu}">stranici</a>.</div><div class="inflatable-video">Video tobogana možete pogledati <a href="${inflatableXML.video}">ovdje</a>`)
 }
 
+function set_contactus_height() {
+    $('.contact-us').css('min-height',`calc(100vh - ${$('.navbar').outerHeight(true)}px - ${$('.footer').outerHeight(true)}px - ${$('.copyright').outerHeight(true)}px)`)
+}
+
 
 $( document ).ready(() => {
     var xhttp = new XMLHttpRequest();
@@ -53,7 +57,10 @@ $( document ).ready(() => {
             selectHTML += `<option value="${inflatableName}">${inflatableName}</option>`
         })
         $('#inflatables-select').html(selectHTML)
-
+        set_contactus_height()
+        $(window).resize(() => {
+            set_contactus_height()
+        })
         $('#inflatables-select').change(() => {
             var selectedInflatable = $('#inflatables-select').val()
 

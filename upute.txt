@@ -1,0 +1,9 @@
+DODAVANJE TOBOGANA
+
+    katalog -> tobogani.xml:    1. Uneseš podatke i povećaš id za 1. 
+
+    katalog:                    2. Copy-past bilo koji folder sa HTML-om tobogana, izmjeniš meta podatke i promjeniš id od inflatable-content div-a u traženi.
+________________________________________________________________________________________________________________________________________________________
+
+
+

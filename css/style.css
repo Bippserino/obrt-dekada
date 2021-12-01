@@ -71,6 +71,7 @@ a {
 
 .navbar-brand {
     text-transform: uppercase;
+    margin-left: 0.5rem;
 }
 
 #navbarNav {
@@ -453,6 +454,81 @@ hr:last-child {
 
 .rental a {
     text-decoration: underline;
+}
+
+.contact-us {
+    padding: 4rem 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-us-info>h1{
+    font-size: var(--font-big);
+}
+
+.contact-us-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    align-items: center;
+}
+
+.contact-us-info p {
+    margin-bottom: 0;
+}
+
+#inflatable-preview-img {
+    width: 75%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1rem;
+}
+
+.inflatable-preview-description {
+    text-align: center;
+}
+
+.inflatable-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inflatable-preview-description .inflatable-title {
+    font-size: var(--font-medium);
+}
+
+.mail-form {
+    margin-top: 1rem;
+}
+
+.mail-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-form input, .mail-form select {
+    margin-bottom: 1rem;
+}
+
+[name="email"], [name="inflatable"], [name="name"] {
+    width: 75%;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.mail-form button {
+    width: 35%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+[name="message"] {
+    width: 75%;
+    height: 5rem;
+    margin: auto;
+    padding: 0.5rem;
+    resize: none
 }
 
 
@@ -954,6 +1030,13 @@ hr:last-child {
         grid-column: 2;
     }
 
+    .navbar-brand {
+        margin-left: 0;
+    }
+
+    .copyright {
+        font-size: 0.5rem;
+    }
 }
 
 @media only screen and (max-width: 376px) {

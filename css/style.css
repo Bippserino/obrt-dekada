@@ -397,6 +397,7 @@ hr:last-child {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 2rem;
     row-gap: 2rem;
+    color: var(--dark-blue);
 }
 
 .rental-dimensions {
@@ -1044,7 +1045,7 @@ hr:last-child {
     }
 
     .accordion button, .accordion-body {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .inflatable-title {
@@ -1112,6 +1113,10 @@ hr:last-child {
 
     .mail-form button{
         width: 50%;
+    }
+
+    .questions-title {
+        padding-top: 2rem;
     }
 }
 

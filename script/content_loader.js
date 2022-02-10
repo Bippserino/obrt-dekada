@@ -1,3 +1,5 @@
+var loaded = false
+
 const default_video = `<iframe width="560" height="315" src="https://www.youtube.com/embed/turu4Dshm8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 
 function parseXML(XML) {
@@ -33,8 +35,7 @@ function insert_into_inflatable_content(inflatableXML) {
         else {
             picturesHTML += `<div class="carousel-item" data-bs-interval="5000"><img src="${inflatableXML.slike[i]}" class="d-block w-50" alt="${inflatableXML.naziv}" draggable="false"></div>`
         }
-    }
-
+    }    
     $(".inflatable-content").html(`<h1 class="inflatable-title">${inflatableXML.naziv}</h1><div class="inflatable-description">${inflatableXML.opis}</div><div class="inflatable-dimensions"><b>Dimenzije (D/Š/V):</b> ${inflatableXML.dimenzije}</div><div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner">${picturesHTML}</div><button class="carousel-control-prev reset-left" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next reset-right" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div><div class="inflatable-buy">Tobogan možete kupiti na našoj <a href="${inflatableXML.link_za_kupovinu}">stranici</a>.</div><div class="inflatable-video yt-video">${inflatableXML.video}</div><h3>Svoj termin možete rezervirati na</h3><div class="inflatable-info"><b>E-mail:</b> miroslav.dekada@gmail.com <br><b>Telefon:</b> 099 213 0810</div>`)
 }
 
@@ -62,6 +63,12 @@ $( document ).ready(() => {
         })
 
         insert_into_inflatable_content(inflatableParsed)
+        try {
+            window.top.document.title = `${inflatableParsed.naziv} - Obrt Dekada`
+        }
+        catch(e) {
+            console.log(e)
+        }
     }
     xhttp.send();
 

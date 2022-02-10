@@ -1,5 +1,5 @@
 function inject_nav() {
-    const base_url = window.location.protocol + "//" + window.location.host
+    const base_url = window.location.protocol + "//" + window.location.host + "/obrt-dekada"
     const html_code = `<nav class="navbar sticky-top navbar-expand-lg navbar-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="${base_url}" draggable="false"><img src="${base_url}/fotografije/logo.svg" alt="logo" draggable="false"></a>

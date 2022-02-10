@@ -22,7 +22,7 @@
             <slika>../../fotografije/tobogan-veliki-spuzva-bob-obrt-dekada-najam-slavonija-5.jpg</slika>
             <slika>../../fotografije/tobogan-veliki-spuzva-bob-obrt-dekada-najam-slavonija-6.jpg</slika>
         </slike>
-        <video>https://www.youtube.com/channel/UCbx5PecS9vVP-J2WyqjYiXA/videos</video>
+        <video></video>
     </tobogan>    
     
     <tobogan>
@@ -45,7 +45,7 @@
             <slika>../../fotografije/tobogan-svemirko-obrt-dekada-najam-slavonija-3.jpg</slika>
             <slika>../../fotografije/tobogan-svemirko-obrt-dekada-najam-slavonija-4.jpg</slika>
         </slike>
-        <video>https://www.youtube.com/channel/UCbx5PecS9vVP-J2WyqjYiXA/videos</video>
+        <video></video>
     </tobogan>
 
     <tobogan>
@@ -69,7 +69,7 @@
             <slika>../../fotografije/mickey-mouse-najam-tobogan-inflatable-slide-for-sale-dekada-croatia-4.jpg</slika>
             <slika>../../fotografije/mickey-mouse-najam-tobogan-inflatable-slide-for-sale-dekada-croatia-5.jpg</slika>
         </slike>
-        <video>https://www.youtube.com/channel/UCbx5PecS9vVP-J2WyqjYiXA/videos</video>
+        <video></video>
     </tobogan>
 
     <tobogan>
@@ -91,7 +91,7 @@
             <slika>../../fotografije/toy-story-inflatable-slide-for-sale-dekada-croatia-2.jpg</slika>
             <slika>../../fotografije/toy-story-inflatable-slide-for-sale-dekada-croatia-3.jpg</slika>
         </slike>
-        <video>https://www.youtube.com/channel/UCbx5PecS9vVP-J2WyqjYiXA/videos</video>
+       <video></video>
     </tobogan>
 
     <tobogan>
@@ -118,9 +118,9 @@
             <slika>../../fotografije/veliki-zmaj-dvorac-najam-napuhanaca-inflatable-slide-for-sale-dekada-croatia-7.jpg</slika>
             <slika>../../fotografije/veliki-zmaj-dvorac-najam-napuhanaca-inflatable-slide-for-sale-dekada-croatia-8.jpg</slika>
         </slike>
-        <video>https://www.youtube.com/watch?v=Rq28gaD9I5g</video>
+        <video><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/Rq28gaD9I5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></video>
     </tobogan>
-
+<![CDATA[]]>
     <tobogan>
         <id>6</id>
         <put>./spuzva-bob</put>
@@ -146,7 +146,7 @@
             <slika>../../fotografije/tobogan-spuzva-bob-obrt-dekada-najam-slavonija-8.jpg</slika>
             <slika>../../fotografije/tobogan-spuzva-bob-obrt-dekada-najam-slavonija-9.jpg</slika>
         </slike>
-        <video>https://www.youtube.com/channel/UCbx5PecS9vVP-J2WyqjYiXA/videos</video>
+        <video></video>
     </tobogan>
 
     <tobogan>
@@ -175,7 +175,7 @@
             <slika>../../fotografije/tobogan-malci-obrt-dekada-najam-slavonija-9.jpg</slika>
             <slika>../../fotografije/tobogan-malci-obrt-dekada-najam-slavonija-10.jpg</slika>
         </slike>
-        <video>https://www.youtube.com/watch?v=5t4XA52tCGs&#38;t=1s</video>
+        <video><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/5t4XA52tCGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></video>
     </tobogan>
 
     <tobogan>
@@ -200,7 +200,7 @@
             <slika>../../fotografije/tobogan-princeza-obrt-dekada-najam-slavonija-6.jpg</slika>
             <slika>../../fotografije/tobogan-princeza-obrt-dekada-najam-slavonija-7.jpg</slika>
         </slike>
-        <video>https://www.youtube.com/watch?v=oo7jfQqs2ig</video>
+        <video><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/oo7jfQqs2ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></video>
     </tobogan>
 
     <tobogan>
@@ -224,7 +224,7 @@
             <slika>../../fotografije/tobogan-zmaj-obrt-dekada-najam-slavonija-4.jpg</slika>
             <slika>../../fotografije/tobogan-zmaj-obrt-dekada-najam-slavonija-5.jpg</slika>
         </slike>
-        <video>https://www.youtube.com/watch?v=WDuRnKyHkMY</video>
+        <video><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/WDuRnKyHkMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></video>
     </tobogan>
 
     <tobogan>
@@ -249,7 +249,7 @@
             <slika>../../fotografije/tobogan-gusar-obrt-dekada-najam-slavonija-5.jpg</slika>
             <slika>../../fotografije/tobogan-gusar-obrt-dekada-najam-slavonija-6.jpg</slika>
         </slike>
-        <video>https://www.youtube.com/watch?v=mcBBVeoVZms</video>
+        <video><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/mcBBVeoVZms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></video>
     </tobogan>
 
     <tobogan>
@@ -270,7 +270,7 @@
             <slika>../../fotografije/tobogan-carobnjak-obrt-dekada-najam-slavonija-2.jpg</slika>
             <slika>../../fotografije/tobogan-carobnjak-obrt-dekada-najam-slavonija-3.jpg</slika>
         </slike>
-        <video>https://www.youtube.com/channel/UCbx5PecS9vVP-J2WyqjYiXA/videos</video>
+        <video></video>
     </tobogan>
 
      <tobogan>
@@ -292,6 +292,6 @@
             <slika>../../fotografije/tobogan-veliki-obrt-dekada-najam-slavonija-2.jpg</slika>
             <slika>../../fotografije/tobogan-veliki-obrt-dekada-najam-slavonija-3.jpg</slika>
         </slike>
-        <video>https://www.youtube.com/channel/UCbx5PecS9vVP-J2WyqjYiXA/videos</video>
+        <video></video>
     </tobogan>
 </katalog>

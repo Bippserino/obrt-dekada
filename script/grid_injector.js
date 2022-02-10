@@ -34,7 +34,7 @@ function inject_nav() {
 }
 
 function inject_footer() {
-    const base_url = window.location.protocol + "//" + window.location.host
+    const base_url = window.location.protocol + "//" + window.location.host + "/obrt-dekada"
     const year = new Date().getFullYear()
     const html_code = `<div class="footer">
     <div class="container">
